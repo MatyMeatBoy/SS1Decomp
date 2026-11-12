@@ -19,7 +19,7 @@ authoritative record of individual authorship.
 **MatyMeatBoy** maintains this fork, progress reporting and the SS2-to-SS1
 comparison work. The completed matching code and engineering findings in
 [SS2Decomp](https://github.com/MatyMeatBoy/SS2Decomp) provide reference material;
-each SS1 adaptation must independently match the SS1 USA ROM.
+each SS1 adaptation must independently match its target regional ROM.
 
 The original README documents the external compiler, disassembler and Nintendo
 library research sources. Their existing notices and credits are preserved.

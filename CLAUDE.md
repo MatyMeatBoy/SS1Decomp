@@ -1,13 +1,15 @@
-# Shining Soul (USA) decomp — notes for Claude
+# SS1Decomp — contributor notes
 
-Matching decompilation of Shining Soul (GBA, `AHUE`). See README.md for the
+Matching decompilation of Shining Soul. Europe (`AHUP`) is the primary profile;
+the original USA (`AHUE`) source tree is preserved. See README.md for the
 layout and tools, docs/NEXT.md for the task list, docs/RESEARCH.md for the
 mGBA tracing workflow, docs/variables.md for RAM/struct findings.
 
 ## Rules
 
-- `make compare` must print `shiningsoul.gba: OK` after every game-code,
-  assembly, header, linker, ROM-profile or ordinary compiler-rule change. Use
+- The affected regional full-ROM gate must pass after every game-code,
+  assembly, header, linker, ROM-profile or ordinary compiler-rule change.
+  Default `make compare` verifies Europe; `make REGION=us compare` verifies USA. Use
   `make check FUNC=Name` / `make diff` to find mismatches.
 - Never commit or copy game data. Everything that isn't code is `.incbin`'d
   from the user's `baserom.gba`.
@@ -35,6 +37,14 @@ Metadata objects must remain under `build/metadata/`; they must never replace
 ordinary objects or create a ROM. Publish only the JSON/Markdown/SVG reports,
 with `rom_match_verified: false`. Keep the ordinary USA `make compare` gate for
 all game-code work. A Europe AHUP dump cannot satisfy the USA AHUE SHA1 check.
+
+For the European profile, `make compare-eu` must reproduce the owned AHUP ROM
+exactly (full bytes and SHA1) before any shared C span earns EU credit. Its raw
+fallback spans remain pending, not decompiled assembly. Keep USA and EU metrics
+separate and preserve all multilingual assets. `make record-eu` records only the
+verification receipt after the complete EU gate succeeds. A shared-source change
+requires verification for every affected build profile; use isolated EU-specific
+source work rather than silently breaking the preserved USA build.
 
 ## Current state (2026-10-19)
 

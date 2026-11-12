@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc" font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<title id="title">EU AHUP | verified C spans</title>
+<desc id="desc">Byte-weighted linked C modules and raw pending code. Function count unknown. Cartridge header excluded.</desc>
+<rect width="100%" height="100%" fill="#0d1117"/>
+<text x="14" y="27" fill="#e6edf3" font-size="18">EU AHUP | verified C spans</text>
+<text x="14" y="52" fill="#e6edf3" font-size="13">C: 137,224 / 338,548 bytes (40.533%) | functions: unknown</text>
+<rect x="8.000" y="70.000" width="112.657" height="143.282" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08007928 | 14240 bytes | pending</title></rect>
+<rect x="8.000" y="213.282" width="112.657" height="130.322" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800FF94 | 12952 bytes | pending</title></rect>
+<rect x="8.000" y="343.604" width="112.657" height="116.396" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0803C068 | 11568 bytes | pending</title></rect>
+<rect x="120.657" y="70.000" width="93.462" height="129.094" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08031444 | 10644 bytes | pending</title></rect>
+<rect x="120.657" y="199.094" width="93.462" height="92.952" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08029D54 | 7664 bytes | pending</title></rect>
+<rect x="120.657" y="292.046" width="93.462" height="87.615" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802F728 | 7224 bytes | pending</title></rect>
+<rect x="120.657" y="379.662" width="93.462" height="80.338" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0803A5B4 | 6624 bytes | pending</title></rect>
+<rect x="214.119" y="70.000" width="87.568" height="84.400" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0801B348 | 6520 bytes | pending</title></rect>
+<rect x="214.119" y="154.400" width="87.568" height="78.652" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080155B0 | 6076 bytes | pending</title></rect>
+<rect x="214.119" y="233.052" width="87.568" height="78.601" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08038C64 | 6072 bytes | pending</title></rect>
+<rect x="214.119" y="311.653" width="87.568" height="76.737" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800CD10 | 5928 bytes | pending</title></rect>
+<rect x="214.119" y="388.390" width="87.568" height="71.610" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0803589C | 5532 bytes | pending</title></rect>
+<rect x="301.687" y="70.000" width="72.873" height="84.869" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/lib/m4a.c | 0x080508D4 | 5456 bytes | c</title></rect>
+<rect x="301.687" y="154.869" width="72.873" height="80.825" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0804F488 | 5196 bytes | pending</title></rect>
+<rect x="301.687" y="235.694" width="72.873" height="75.972" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080340C0 | 4884 bytes | pending</title></rect>
+<rect x="301.687" y="311.666" width="72.873" height="74.416" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08023180 | 4784 bytes | pending</title></rect>
+<rect x="301.687" y="386.082" width="72.873" height="73.918" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802DD28 | 4752 bytes | pending</title></rect>
+<rect x="374.560" y="70.000" width="73.524" height="73.017" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0804D0D0 | 4736 bytes | pending</title></rect>
+<rect x="374.560" y="143.017" width="73.524" height="71.907" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08044048 | 4664 bytes | pending</title></rect>
+<rect x="374.560" y="214.924" width="73.524" height="67.775" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08027F50 | 4396 bytes | pending</title></rect>
+<rect x="374.560" y="282.699" width="73.524" height="64.877" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800656C | 4208 bytes | pending</title></rect>
+<rect x="374.560" y="347.576" width="73.524" height="57.353" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08019D78 | 3720 bytes | pending</title></rect>
+<rect x="374.560" y="404.929" width="73.524" height="55.071" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08036ED0 | 3572 bytes | pending</title></rect>
+<rect x="448.084" y="70.000" width="53.817" height="70.350" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08051E24 | 3340 bytes | pending</title></rect>
+<rect x="448.084" y="140.350" width="53.817" height="64.368" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08021E1C | 3056 bytes | pending</title></rect>
+<rect x="448.084" y="204.718" width="53.817" height="54.932" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080143C0 | 2608 bytes | pending</title></rect>
+<rect x="448.084" y="259.650" width="53.817" height="51.983" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08025D0C | 2468 bytes | pending</title></rect>
+<rect x="448.084" y="311.633" width="53.817" height="51.983" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08045548 | 2468 bytes | pending</title></rect>
+<rect x="448.084" y="363.616" width="53.817" height="49.287" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802512C | 2340 bytes | pending</title></rect>
+<rect x="448.084" y="412.903" width="53.817" height="47.097" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08018A78 | 2236 bytes | pending</title></rect>
+<rect x="501.901" y="70.000" width="44.016" height="56.141" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08037F04 | 2180 bytes | pending</title></rect>
+<rect x="501.901" y="126.141" width="44.016" height="52.536" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_screen_setup.c | 0x080416A4 | 2040 bytes | c</title></rect>
+<rect x="501.901" y="178.677" width="44.016" height="50.990" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_starters.c | 0x0802105C | 1980 bytes | c</title></rect>
+<rect x="501.901" y="229.667" width="44.016" height="50.681" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_help_line.c | 0x080434E4 | 1968 bytes | c</title></rect>
+<rect x="501.901" y="280.349" width="44.016" height="48.930" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080429F8 | 1900 bytes | pending</title></rect>
+<rect x="501.901" y="329.279" width="44.016" height="47.076" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0801779C | 1828 bytes | pending</title></rect>
+<rect x="501.901" y="376.355" width="44.016" height="45.531" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08046814 | 1768 bytes | pending</title></rect>
+<rect x="501.901" y="421.886" width="44.016" height="38.114" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802CFE4 | 1480 bytes | pending</title></rect>
+<rect x="545.917" y="70.000" width="40.424" height="41.501" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_drop_item.c | 0x08040420 | 1480 bytes | c</title></rect>
+<rect x="545.917" y="111.501" width="40.424" height="41.277" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080478EC | 1472 bytes | pending</title></rect>
+<rect x="545.917" y="152.778" width="40.424" height="40.716" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_player_chests.c | 0x0801E14C | 1452 bytes | c</title></rect>
+<rect x="545.917" y="193.494" width="40.424" height="39.707" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800B9DC | 1416 bytes | pending</title></rect>
+<rect x="545.917" y="233.201" width="40.424" height="39.258" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_spawner_thread.c | 0x080194F4 | 1400 bytes | c</title></rect>
+<rect x="545.917" y="272.459" width="40.424" height="38.697" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080000C0 | 1380 bytes | pending</title></rect>
+<rect x="545.917" y="311.156" width="40.424" height="37.575" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802CA14 | 1340 bytes | pending</title></rect>
+<rect x="545.917" y="348.732" width="40.424" height="37.239" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_title.c | 0x080266B0 | 1328 bytes | c</title></rect>
+<rect x="545.917" y="385.971" width="40.424" height="37.015" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08013448 | 1320 bytes | pending</title></rect>
+<rect x="545.917" y="422.985" width="40.424" height="37.015" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_cursor_draw.c | 0x08042258 | 1320 bytes | c</title></rect>
+<rect x="586.341" y="70.000" width="35.983" height="41.583" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode6_seq.c | 0x0804B7CC | 1320 bytes | c</title></rect>
+<rect x="586.341" y="111.583" width="35.983" height="41.457" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08005B84 | 1316 bytes | pending</title></rect>
+<rect x="586.341" y="153.040" width="35.983" height="39.693" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0801F614 | 1260 bytes | pending</title></rect>
+<rect x="586.341" y="192.733" width="35.983" height="39.315" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/picture_setup.c | 0x0804CBF0 | 1248 bytes | c</title></rect>
+<rect x="586.341" y="232.048" width="35.983" height="39.063" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/npc_gift_0604.c | 0x0802073C | 1240 bytes | c</title></rect>
+<rect x="586.341" y="271.111" width="35.983" height="38.055" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_chest.c | 0x0801E6F8 | 1208 bytes | c</title></rect>
+<rect x="586.341" y="309.166" width="35.983" height="38.055" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_drop.c | 0x0804AF5C | 1208 bytes | c</title></rect>
+<rect x="586.341" y="347.221" width="35.983" height="37.929" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/quit_to_title.c | 0x08024C78 | 1204 bytes | c</title></rect>
+<rect x="586.341" y="385.150" width="35.983" height="37.677" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/hud_sprites.c | 0x08022BEC | 1196 bytes | c</title></rect>
+<rect x="586.341" y="422.827" width="35.983" height="37.173" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_rocks.c | 0x0801EDFC | 1180 bytes | c</title></rect>
+<rect x="622.324" y="70.000" width="38.159" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_exit_thread.c | 0x0801AC00 | 1140 bytes | c</title></rect>
+<rect x="660.483" y="70.000" width="37.356" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode8_seq.c | 0x0804C6B4 | 1116 bytes | c</title></rect>
+<rect x="697.839" y="70.000" width="37.088" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/npc_gift_f9c8.c | 0x0801FB00 | 1108 bytes | c</title></rect>
+<rect x="734.927" y="70.000" width="37.088" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/npc_gift_01b0.c | 0x080202E8 | 1108 bytes | c</title></rect>
+<rect x="772.015" y="70.000" width="36.954" height="33.865" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802D64C | 1104 bytes | pending</title></rect>
+<rect x="808.970" y="70.000" width="36.820" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/title_menu.c | 0x08002440 | 1100 bytes | c</title></rect>
+<rect x="845.790" y="70.000" width="36.820" height="33.865" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0801DD00 | 1100 bytes | pending</title></rect>
+<rect x="882.610" y="70.000" width="36.686" height="33.865" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/interrupts.c | 0x08000AF8 | 1096 bytes | c</title></rect>
+<rect x="919.297" y="70.000" width="36.686" height="33.865" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08020C14 | 1096 bytes | pending</title></rect>
+<rect x="955.983" y="70.000" width="36.017" height="33.865" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08001FD0 | 1076 bytes | pending</title></rect>
+<rect x="622.324" y="103.865" width="34.146" height="34.657" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0804A768 | 1044 bytes | pending</title></rect>
+<rect x="622.324" y="138.522" width="34.146" height="34.259" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800F674 | 1032 bytes | pending</title></rect>
+<rect x="622.324" y="172.781" width="34.146" height="33.861" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_attack_damage.c | 0x08017288 | 1020 bytes | c</title></rect>
+<rect x="622.324" y="206.642" width="34.146" height="33.197" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/drop_spot.c | 0x0800FBAC | 1000 bytes | c</title></rect>
+<rect x="622.324" y="239.839" width="34.146" height="32.666" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080028D8 | 984 bytes | pending</title></rect>
+<rect x="622.324" y="272.504" width="34.146" height="32.135" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_items.c | 0x08040E18 | 968 bytes | c</title></rect>
+<rect x="622.324" y="304.639" width="34.146" height="31.736" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_draw.c | 0x08041E9C | 956 bytes | c</title></rect>
+<rect x="622.324" y="336.375" width="34.146" height="31.338" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_thread.c | 0x08027BA0 | 944 bytes | c</title></rect>
+<rect x="622.324" y="367.713" width="34.146" height="31.205" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_pool.c | 0x0801838C | 940 bytes | c</title></rect>
+<rect x="622.324" y="398.918" width="34.146" height="30.541" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/lib/multi_sio.c | 0x08001504 | 920 bytes | c</title></rect>
+<rect x="622.324" y="429.459" width="34.146" height="30.541" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/link_save_reset.c | 0x080248E0 | 920 bytes | c</title></rect>
+<rect x="656.470" y="103.865" width="31.843" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/npc_gift.c | 0x0801FF54 | 916 bytes | c</title></rect>
+<rect x="688.313" y="103.865" width="31.704" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_bg.c | 0x080470D8 | 912 bytes | c</title></rect>
+<rect x="720.017" y="103.865" width="31.147" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_layer1_thread.c | 0x080053D0 | 896 bytes | c</title></rect>
+<rect x="751.164" y="103.865" width="31.147" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_stats_diff.c | 0x08043164 | 896 bytes | c</title></rect>
+<rect x="782.311" y="103.865" width="31.008" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/npc_gift_f160.c | 0x0801F298 | 892 bytes | c</title></rect>
+<rect x="813.320" y="103.865" width="30.313" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/picture_screen.c | 0x0804EEEC | 872 bytes | c</title></rect>
+<rect x="843.633" y="103.865" width="30.174" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_push.c | 0x0802907C | 868 bytes | c</title></rect>
+<rect x="873.807" y="103.865" width="30.035" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode7_seq.c | 0x0804BEB4 | 864 bytes | c</title></rect>
+<rect x="903.842" y="103.865" width="29.479" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_timed_traps.c | 0x0801D710 | 848 bytes | c</title></rect>
+<rect x="933.321" y="103.865" width="29.340" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/game_flags.c | 0x080075DC | 844 bytes | c</title></rect>
+<rect x="962.660" y="103.865" width="29.340" height="32.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_wave.c | 0x080353D4 | 844 bytes | c</title></rect>
+<rect x="656.470" y="136.473" width="29.613" height="31.235" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_affine_mode.c | 0x08003B20 | 816 bytes | c</title></rect>
+<rect x="656.470" y="167.708" width="29.613" height="30.163" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800EC68 | 788 bytes | pending</title></rect>
+<rect x="656.470" y="197.871" width="29.613" height="30.163" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_traps.c | 0x0801D0E8 | 788 bytes | c</title></rect>
+<rect x="656.470" y="228.034" width="29.613" height="30.163" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_switched_traps.c | 0x0801D3FC | 788 bytes | c</title></rect>
+<rect x="656.470" y="258.197" width="29.613" height="29.857" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/start_equipment.c | 0x080152A4 | 780 bytes | c</title></rect>
+<rect x="656.470" y="288.054" width="29.613" height="29.245" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08004C3C | 764 bytes | pending</title></rect>
+<rect x="656.470" y="317.299" width="29.613" height="29.245" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/fade.c | 0x0800F2AC | 764 bytes | c</title></rect>
+<rect x="656.470" y="346.543" width="29.613" height="29.091" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spell_status_near.c | 0x0802BB44 | 760 bytes | c</title></rect>
+<rect x="656.470" y="375.635" width="29.613" height="28.326" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/item_use_thread.c | 0x0802C36C | 740 bytes | c</title></rect>
+<rect x="656.470" y="403.961" width="29.613" height="28.020" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/stats.c | 0x08016EF8 | 732 bytes | c</title></rect>
+<rect x="656.470" y="431.980" width="29.613" height="28.020" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/link_lost.c | 0x08024604 | 732 bytes | c</title></rect>
+<rect x="686.084" y="136.473" width="28.498" height="28.798" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800EFD8 | 724 bytes | pending</title></rect>
+<rect x="714.581" y="136.473" width="28.498" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/name_entry_move.c | 0x080480D8 | 724 bytes | c</title></rect>
+<rect x="743.079" y="136.473" width="28.498" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode7.c | 0x0804C214 | 724 bytes | c</title></rect>
+<rect x="771.577" y="136.473" width="28.340" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/field_session.c | 0x0800629C | 720 bytes | c</title></rect>
+<rect x="799.917" y="136.473" width="28.340" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_pools.c | 0x0802EFB8 | 720 bytes | c</title></rect>
+<rect x="828.257" y="136.473" width="27.710" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode0_seq.c | 0x08048A9C | 704 bytes | c</title></rect>
+<rect x="855.967" y="136.473" width="27.553" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/warp_spot_thread.c | 0x08025A50 | 700 bytes | c</title></rect>
+<rect x="883.520" y="136.473" width="27.395" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_dpad.c | 0x0804655C | 696 bytes | c</title></rect>
+<rect x="910.916" y="136.473" width="27.238" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_projectile2.c | 0x08038788 | 692 bytes | c</title></rect>
+<rect x="938.154" y="136.473" width="26.923" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_affine2.c | 0x08003E50 | 684 bytes | c</title></rect>
+<rect x="965.077" y="136.473" width="26.923" height="28.798" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/sound.c | 0x0803F328 | 684 bytes | c</title></rect>
+<rect x="686.084" y="165.271" width="27.953" height="27.575" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/window_thread.c | 0x08021AD4 | 680 bytes | c</title></rect>
+<rect x="686.084" y="192.846" width="27.953" height="27.413" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_affine.c | 0x0800387C | 676 bytes | c</title></rect>
+<rect x="686.084" y="220.259" width="27.953" height="27.413" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802F304 | 676 bytes | pending</title></rect>
+<rect x="686.084" y="247.672" width="27.953" height="27.251" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_switches.c | 0x0801DA60 | 672 bytes | c</title></rect>
+<rect x="686.084" y="274.923" width="27.953" height="26.764" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_layer2_thread.c | 0x08005750 | 660 bytes | c</title></rect>
+<rect x="686.084" y="301.687" width="27.953" height="26.602" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_frame_tiles.c | 0x08003234 | 656 bytes | c</title></rect>
+<rect x="686.084" y="328.288" width="27.953" height="26.602" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_080292D0.c | 0x080293E0 | 656 bytes | c</title></rect>
+<rect x="686.084" y="354.890" width="27.953" height="26.440" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08002CE4 | 652 bytes | pending</title></rect>
+<rect x="686.084" y="381.330" width="27.953" height="26.277" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/inventory_misc.c | 0x08014DF0 | 648 bytes | c</title></rect>
+<rect x="686.084" y="407.607" width="27.953" height="26.277" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0803EF44 | 648 bytes | pending</title></rect>
+<rect x="686.084" y="433.885" width="27.953" height="26.115" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802BE3C | 644 bytes | pending</title></rect>
+<rect x="714.037" y="165.271" width="26.856" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/link_handshake.c | 0x08001B78 | 640 bytes | c</title></rect>
+<rect x="740.893" y="165.271" width="26.521" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_to.c | 0x0804EA28 | 632 bytes | c</title></rect>
+<rect x="767.414" y="165.271" width="26.017" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_push3.c | 0x080274EC | 620 bytes | c</title></rect>
+<rect x="793.431" y="165.271" width="25.849" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/char_menu_threads.c | 0x08026F80 | 616 bytes | c</title></rect>
+<rect x="819.280" y="165.271" width="25.514" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode1_add.c | 0x08049414 | 608 bytes | c</title></rect>
+<rect x="844.794" y="165.271" width="25.178" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/item_use_effect.c | 0x0802C650 | 600 bytes | c</title></rect>
+<rect x="869.972" y="165.271" width="24.674" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/warp_spots.c | 0x0801EBB0 | 588 bytes | c</title></rect>
+<rect x="894.646" y="165.271" width="24.674" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode2_seq.c | 0x08049944 | 588 bytes | c</title></rect>
+<rect x="919.320" y="165.271" width="24.339" height="27.013" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800B2E8 | 580 bytes | pending</title></rect>
+<rect x="943.659" y="165.271" width="24.171" height="27.013" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0801B074 | 576 bytes | pending</title></rect>
+<rect x="967.829" y="165.271" width="24.171" height="27.013" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_projectile.c | 0x08037CC4 | 576 bytes | c</title></rect>
+<rect x="714.037" y="192.284" width="25.727" height="25.379" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_skill_tick.c | 0x0803FC68 | 576 bytes | c</title></rect>
+<rect x="714.037" y="217.663" width="25.727" height="24.851" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08049B90 | 564 bytes | pending</title></rect>
+<rect x="714.037" y="242.514" width="25.727" height="24.851" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/sprite_drift.c | 0x0804F254 | 564 bytes | c</title></rect>
+<rect x="714.037" y="267.364" width="25.727" height="24.674" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_mode.c | 0x080040FC | 560 bytes | c</title></rect>
+<rect x="714.037" y="292.039" width="25.727" height="24.322" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_threads.c | 0x08038A3C | 552 bytes | c</title></rect>
+<rect x="714.037" y="316.360" width="25.727" height="24.146" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode5_add.c | 0x0804B414 | 548 bytes | c</title></rect>
+<rect x="714.037" y="340.506" width="25.727" height="23.969" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_setup.c | 0x0800B0C8 | 544 bytes | c</title></rect>
+<rect x="714.037" y="364.475" width="25.727" height="23.969" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_misc.c | 0x08043C94 | 544 bytes | c</title></rect>
+<rect x="714.037" y="388.445" width="25.727" height="23.969" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode1_seq.c | 0x080491F4 | 544 bytes | c</title></rect>
+<rect x="714.037" y="412.414" width="25.727" height="23.793" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_spawn.c | 0x0800C63C | 540 bytes | c</title></rect>
+<rect x="714.037" y="436.207" width="25.727" height="23.793" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/equipment.c | 0x080141A4 | 540 bytes | c</title></rect>
+<rect x="739.764" y="192.284" width="23.953" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_cursor.c | 0x080476DC | 528 bytes | c</title></rect>
+<rect x="763.717" y="192.284" width="23.772" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_copy.c | 0x08003670 | 524 bytes | c</title></rect>
+<rect x="787.489" y="192.284" width="23.590" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_obj.c | 0x08017F88 | 520 bytes | c</title></rect>
+<rect x="811.079" y="192.284" width="23.228" height="24.987" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800510C | 512 bytes | pending</title></rect>
+<rect x="834.307" y="192.284" width="23.046" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/field_items2.c | 0x08013D5C | 508 bytes | c</title></rect>
+<rect x="857.353" y="192.284" width="22.865" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_push.c | 0x0800B6CC | 504 bytes | c</title></rect>
+<rect x="880.218" y="192.284" width="22.865" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_stats2.c | 0x080413C8 | 504 bytes | c</title></rect>
+<rect x="903.082" y="192.284" width="22.320" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spell_damage_player.c | 0x0802DB3C | 492 bytes | c</title></rect>
+<rect x="925.402" y="192.284" width="22.320" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_alloc.c | 0x0803F8A8 | 492 bytes | c</title></rect>
+<rect x="947.723" y="192.284" width="22.139" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_hit_type.c | 0x0800E884 | 488 bytes | c</title></rect>
+<rect x="969.861" y="192.284" width="22.139" height="24.987" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_stats.c | 0x080411E0 | 488 bytes | c</title></rect>
+<rect x="739.764" y="217.271" width="22.005" height="24.932" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08019AEC | 484 bytes | pending</title></rect>
+<rect x="739.764" y="242.203" width="22.005" height="24.726" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/window_checks.c | 0x08022A0C | 480 bytes | c</title></rect>
+<rect x="739.764" y="266.929" width="22.005" height="24.726" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_push2.c | 0x08027758 | 480 bytes | c</title></rect>
+<rect x="739.764" y="291.656" width="22.005" height="24.726" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_misc.c | 0x080484E8 | 480 bytes | c</title></rect>
+<rect x="739.764" y="316.382" width="22.005" height="24.520" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_setup.c | 0x08046EFC | 476 bytes | c</title></rect>
+<rect x="739.764" y="340.902" width="22.005" height="24.314" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/link.c | 0x08001DF8 | 472 bytes | c</title></rect>
+<rect x="739.764" y="365.216" width="22.005" height="23.902" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_markers.c | 0x0801CF18 | 464 bytes | c</title></rect>
+<rect x="739.764" y="389.118" width="22.005" height="23.902" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode3_add.c | 0x0804A390 | 464 bytes | c</title></rect>
+<rect x="739.764" y="413.020" width="22.005" height="23.696" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_setup.c | 0x0803F6DC | 460 bytes | c</title></rect>
+<rect x="739.764" y="436.716" width="22.005" height="23.284" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/skill_thread_start.c | 0x0802C0C0 | 452 bytes | c</title></rect>
+<rect x="761.769" y="217.271" width="24.201" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_chars.c | 0x08047518 | 452 bytes | c</title></rect>
+<rect x="785.970" y="217.271" width="23.773" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_pools.c | 0x08033F04 | 444 bytes | c</title></rect>
+<rect x="809.743" y="217.271" width="23.130" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_edge.c | 0x08004A8C | 432 bytes | c</title></rect>
+<rect x="832.873" y="217.271" width="23.130" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/sprite_obj.c | 0x08026BE0 | 432 bytes | c</title></rect>
+<rect x="856.003" y="217.271" width="23.130" height="21.171" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0804A1E0 | 432 bytes | pending</title></rect>
+<rect x="879.133" y="217.271" width="22.916" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw_tiles.c | 0x080034C4 | 428 bytes | c</title></rect>
+<rect x="902.049" y="217.271" width="22.702" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_util.c | 0x0800EAC0 | 424 bytes | c</title></rect>
+<rect x="924.751" y="217.271" width="22.702" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode0_add.c | 0x08048D5C | 424 bytes | c</title></rect>
+<rect x="947.453" y="217.271" width="22.274" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/camera_follow.c | 0x080059E4 | 416 bytes | c</title></rect>
+<rect x="969.726" y="217.271" width="22.274" height="21.171" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode0_runners.c | 0x08048F04 | 416 bytes | c</title></rect>
+<rect x="761.769" y="238.442" width="20.772" height="22.483" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_separate_one.c | 0x0800E438 | 412 bytes | c</title></rect>
+<rect x="761.769" y="260.925" width="20.772" height="22.265" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/intr_handlers.c | 0x08000F7C | 408 bytes | c</title></rect>
+<rect x="761.769" y="283.190" width="20.772" height="22.265" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_separate.c | 0x0800E5D4 | 408 bytes | c</title></rect>
+<rect x="761.769" y="305.455" width="20.772" height="22.265" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_pool18.c | 0x0803A41C | 408 bytes | c</title></rect>
+<rect x="761.769" y="327.720" width="20.772" height="22.265" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_start.c | 0x080463C4 | 408 bytes | c</title></rect>
+<rect x="761.769" y="349.985" width="20.772" height="22.047" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/oam_draw.c | 0x080030A0 | 404 bytes | c</title></rect>
+<rect x="761.769" y="372.032" width="20.772" height="22.047" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08015078 | 404 bytes | pending</title></rect>
+<rect x="761.769" y="394.078" width="20.772" height="22.047" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_pick_up.c | 0x0804028C | 404 bytes | c</title></rect>
+<rect x="761.769" y="416.125" width="20.772" height="22.047" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08043DB8.c | 0x08043EB4 | 404 bytes | c</title></rect>
+<rect x="761.769" y="438.172" width="20.772" height="21.828" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_stats.c | 0x08013AA0 | 400 bytes | c</title></rect>
+<rect x="782.541" y="238.442" width="21.782" height="20.608" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0803FFDC | 396 bytes | pending</title></rect>
+<rect x="804.323" y="238.442" width="21.342" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_save.c | 0x0804ED68 | 388 bytes | c</title></rect>
+<rect x="825.665" y="238.442" width="21.122" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_state.c | 0x08040C98 | 384 bytes | c</title></rect>
+<rect x="846.787" y="238.442" width="20.902" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_pools2.c | 0x08035720 | 380 bytes | c</title></rect>
+<rect x="867.689" y="238.442" width="20.902" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_page_arrows.c | 0x08042780 | 380 bytes | c</title></rect>
+<rect x="888.590" y="238.442" width="20.902" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_clamp.c | 0x0804E454 | 380 bytes | c</title></rect>
+<rect x="909.492" y="238.442" width="20.682" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/link_thread.c | 0x08001A00 | 376 bytes | c</title></rect>
+<rect x="930.174" y="238.442" width="20.682" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/intro_messages.c | 0x0801CDA0 | 376 bytes | c</title></rect>
+<rect x="950.856" y="238.442" width="20.682" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode5_setup.c | 0x0804AD88 | 376 bytes | c</title></rect>
+<rect x="971.538" y="238.442" width="20.462" height="20.608" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/display_misc.c | 0x08000984 | 372 bytes | c</title></rect>
+<rect x="782.541" y="259.050" width="20.330" height="20.519" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/item_roll.c | 0x0801322C | 368 bytes | c</title></rect>
+<rect x="782.541" y="279.569" width="20.330" height="20.519" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode1_drops.c | 0x08049674 | 368 bytes | c</title></rect>
+<rect x="782.541" y="300.087" width="20.330" height="20.296" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/item_use_thread3.c | 0x0802C8A8 | 364 bytes | c</title></rect>
+<rect x="782.541" y="320.383" width="20.330" height="20.296" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_thread.c | 0x080486C8 | 364 bytes | c</title></rect>
+<rect x="782.541" y="340.679" width="20.330" height="20.296" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_dispatch.c | 0x08048834 | 364 bytes | c</title></rect>
+<rect x="782.541" y="360.975" width="20.330" height="20.296" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode7_setup.c | 0x0804BD0C | 364 bytes | c</title></rect>
+<rect x="782.541" y="381.270" width="20.330" height="20.073" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_pool_alloc.c | 0x0800C43C | 360 bytes | c</title></rect>
+<rect x="782.541" y="401.343" width="20.330" height="19.850" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode2_orbit.c | 0x08049DC4 | 356 bytes | c</title></rect>
+<rect x="782.541" y="421.193" width="20.330" height="19.404" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_init.c | 0x08027390 | 348 bytes | c</title></rect>
+<rect x="782.541" y="440.596" width="20.330" height="19.404" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_threads2.c | 0x0803F1CC | 348 bytes | c</title></rect>
+<rect x="802.871" y="259.050" width="19.635" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_030005B8.c | 0x08046014 | 348 bytes | c</title></rect>
+<rect x="822.506" y="259.050" width="19.409" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_slots_free.c | 0x08018920 | 344 bytes | c</title></rect>
+<rect x="841.915" y="259.050" width="18.958" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_to_front.c | 0x08027A50 | 336 bytes | c</title></rect>
+<rect x="860.873" y="259.050" width="18.958" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode4_setup.c | 0x0804A618 | 336 bytes | c</title></rect>
+<rect x="879.831" y="259.050" width="18.732" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_attack_thread.c | 0x0800C088 | 332 bytes | c</title></rect>
+<rect x="898.564" y="259.050" width="18.732" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_skill_threads.c | 0x0800C1D4 | 332 bytes | c</title></rect>
+<rect x="917.296" y="259.050" width="18.732" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spell_damage.c | 0x08029798 | 332 bytes | c</title></rect>
+<rect x="936.029" y="259.050" width="18.732" height="20.090" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080299D0 | 332 bytes | pending</title></rect>
+<rect x="954.761" y="259.050" width="18.732" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_sub.c | 0x0804E82C | 332 bytes | c</title></rect>
+<rect x="973.493" y="259.050" width="18.507" height="20.090" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/agb_main.c | 0x08000624 | 328 bytes | c</title></rect>
+<rect x="802.871" y="279.140" width="19.805" height="18.544" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/items.c | 0x08013F58 | 324 bytes | c</title></rect>
+<rect x="802.871" y="297.684" width="19.805" height="18.315" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_alloc.c | 0x080187E0 | 320 bytes | c</title></rect>
+<rect x="802.871" y="315.999" width="19.805" height="18.315" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_threads.c | 0x08027250 | 320 bytes | c</title></rect>
+<rect x="802.871" y="334.314" width="19.805" height="18.315" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode3_setup.c | 0x08049FDC | 320 bytes | c</title></rect>
+<rect x="802.871" y="352.629" width="19.805" height="18.315" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_bright.c | 0x0804E5D0 | 320 bytes | c</title></rect>
+<rect x="802.871" y="370.944" width="19.805" height="18.086" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080483AC | 316 bytes | pending</title></rect>
+<rect x="802.871" y="389.030" width="19.805" height="17.857" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800483C | 312 bytes | pending</title></rect>
+<rect x="802.871" y="406.887" width="19.805" height="17.857" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_stats.c | 0x08047EAC | 312 bytes | c</title></rect>
+<rect x="802.871" y="424.744" width="19.805" height="17.628" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/heap.c | 0x08001210 | 308 bytes | c</title></rect>
+<rect x="802.871" y="442.372" width="19.805" height="17.628" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/draw_list.c | 0x08004570 | 308 bytes | c</title></rect>
+<rect x="822.676" y="279.140" width="19.006" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_stat_sync.c | 0x0803FEA8 | 308 bytes | c</title></rect>
+<rect x="841.682" y="279.140" width="19.006" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode6_setup.c | 0x0804B698 | 308 bytes | c</title></rect>
+<rect x="860.688" y="279.140" width="19.006" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode8_setup.c | 0x0804C4E8 | 308 bytes | c</title></rect>
+<rect x="879.693" y="279.140" width="18.759" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/data_count.c | 0x08002F70 | 304 bytes | c</title></rect>
+<rect x="898.452" y="279.140" width="18.759" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/anim_step.c | 0x0800436C | 304 bytes | c</title></rect>
+<rect x="917.211" y="279.140" width="18.759" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/inventory_add.c | 0x0800FA7C | 304 bytes | c</title></rect>
+<rect x="935.970" y="279.140" width="18.759" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/materials.c | 0x08013970 | 304 bytes | c</title></rect>
+<rect x="954.729" y="279.140" width="18.759" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08046128.c | 0x08046294 | 304 bytes | c</title></rect>
+<rect x="973.488" y="279.140" width="18.512" height="18.370" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/field_items.c | 0x08013C30 | 300 bytes | c</title></rect>
+<rect x="822.676" y="297.510" width="18.501" height="18.381" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_palette_anim.c | 0x08033DD8 | 300 bytes | c</title></rect>
+<rect x="822.676" y="315.891" width="18.501" height="18.136" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/window_open.c | 0x080219AC | 296 bytes | c</title></rect>
+<rect x="822.676" y="334.027" width="18.501" height="18.136" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spell_area_hit.c | 0x08029670 | 296 bytes | c</title></rect>
+<rect x="822.676" y="352.163" width="18.501" height="18.136" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_stats_changed.c | 0x0803FB40 | 296 bytes | c</title></rect>
+<rect x="822.676" y="370.300" width="18.501" height="18.136" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_cursor_move.c | 0x08045EEC | 296 bytes | c</title></rect>
+<rect x="822.676" y="388.436" width="18.501" height="17.891" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/input.c | 0x0800076C | 292 bytes | c</title></rect>
+<rect x="822.676" y="406.327" width="18.501" height="17.891" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_skill_threads0.c | 0x0800BF64 | 292 bytes | c</title></rect>
+<rect x="822.676" y="424.218" width="18.501" height="17.891" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_spawn_thread.c | 0x0800C90C | 292 bytes | c</title></rect>
+<rect x="822.676" y="442.109" width="18.501" height="17.891" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_gold_count.c | 0x08040168 | 292 bytes | c</title></rect>
+<rect x="841.177" y="297.510" width="19.452" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_030005B8_2.c | 0x08046170 | 292 bytes | c</title></rect>
+<rect x="860.629" y="297.510" width="18.920" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_bg_setup.c | 0x08004720 | 284 bytes | c</title></rect>
+<rect x="879.549" y="297.510" width="18.920" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_effect_line.c | 0x0803EE28 | 284 bytes | c</title></rect>
+<rect x="898.468" y="297.510" width="18.920" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_add.c | 0x0804E710 | 284 bytes | c</title></rect>
+<rect x="917.388" y="297.510" width="18.653" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_layer2_bg.c | 0x08004974 | 280 bytes | c</title></rect>
+<rect x="936.041" y="297.510" width="18.653" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_layer1_init.c | 0x08004F38 | 280 bytes | c</title></rect>
+<rect x="954.694" y="297.510" width="18.653" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_step.c | 0x0800B8C4 | 280 bytes | c</title></rect>
+<rect x="973.347" y="297.510" width="18.653" height="17.016" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0800CB84.c | 0x0800CBF8 | 280 bytes | c</title></rect>
+<rect x="841.177" y="314.526" width="17.143" height="18.515" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800E76C | 280 bytes | pending</title></rect>
+<rect x="841.177" y="333.040" width="17.143" height="18.515" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_calc_damage.c | 0x08017684 | 280 bytes | c</title></rect>
+<rect x="841.177" y="351.555" width="17.143" height="18.515" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/thread_slots.c | 0x08026D90 | 280 bytes | c</title></rect>
+<rect x="841.177" y="370.070" width="17.143" height="18.515" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/queue_push4.c | 0x08027938 | 280 bytes | c</title></rect>
+<rect x="841.177" y="388.585" width="17.143" height="18.250" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_can_put.c | 0x08040B84 | 276 bytes | c</title></rect>
+<rect x="841.177" y="406.836" width="17.143" height="17.721" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_obj5.c | 0x08018280 | 268 bytes | c</title></rect>
+<rect x="841.177" y="424.557" width="17.143" height="17.721" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_check.c | 0x0802F5A8 | 268 bytes | c</title></rect>
+<rect x="841.177" y="442.279" width="17.143" height="17.721" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode1_setup.c | 0x080490E8 | 268 bytes | c</title></rect>
+<rect x="858.319" y="314.526" width="17.093" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode2_setup.c | 0x08049838 | 268 bytes | c</title></rect>
+<rect x="875.412" y="314.526" width="17.093" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode4.c | 0x0804AC7C | 268 bytes | c</title></rect>
+<rect x="892.505" y="314.526" width="16.838" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/item_records.c | 0x0801409C | 264 bytes | c</title></rect>
+<rect x="909.342" y="314.526" width="16.838" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_screen.c | 0x0803F5D4 | 264 bytes | c</title></rect>
+<rect x="926.180" y="314.526" width="16.583" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_place_player.c | 0x08019334 | 260 bytes | c</title></rect>
+<rect x="942.763" y="314.526" width="16.583" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0804E1E4.c | 0x0804E350 | 260 bytes | c</title></rect>
+<rect x="959.345" y="314.526" width="16.327" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/number_above.c | 0x08024430 | 256 bytes | c</title></rect>
+<rect x="975.673" y="314.526" width="16.327" height="17.773" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode4_add.c | 0x0804AB7C | 256 bytes | c</title></rect>
+<rect x="858.319" y="332.299" width="17.540" height="16.286" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/copy_queue.c | 0x08001114 | 252 bytes | c</title></rect>
+<rect x="858.319" y="348.584" width="17.540" height="16.286" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_slot_value.c | 0x080428FC | 252 bytes | c</title></rect>
+<rect x="858.319" y="364.870" width="17.540" height="16.286" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode0_setup.c | 0x080489A0 | 252 bytes | c</title></rect>
+<rect x="858.319" y="381.156" width="17.540" height="16.027" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/window_gfx.c | 0x080218B4 | 248 bytes | c</title></rect>
+<rect x="858.319" y="397.183" width="17.540" height="15.769" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/display.c | 0x08000890 | 244 bytes | c</title></rect>
+<rect x="858.319" y="412.952" width="17.540" height="15.769" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0800CA30 | 244 bytes | pending</title></rect>
+<rect x="858.319" y="428.721" width="17.540" height="15.769" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/name_entry_cursor.c | 0x08047FE4 | 244 bytes | c</title></rect>
+<rect x="858.319" y="444.490" width="17.540" height="15.510" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_obj3.c | 0x08018190 | 240 bytes | c</title></rect>
+<rect x="875.859" y="332.299" width="16.919" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_hit.c | 0x080298E4 | 236 bytes | c</title></rect>
+<rect x="892.779" y="332.299" width="16.632" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/heap_free.c | 0x08001344 | 232 bytes | c</title></rect>
+<rect x="909.411" y="332.299" width="16.632" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/text_number.c | 0x08023098 | 232 bytes | c</title></rect>
+<rect x="926.044" y="332.299" width="16.632" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_obj4.c | 0x08029BDC | 232 bytes | c</title></rect>
+<rect x="942.676" y="332.299" width="16.632" height="15.811" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x0802C284 | 232 bytes | pending</title></rect>
+<rect x="959.309" y="332.299" width="16.346" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08031250.c | 0x08031360 | 228 bytes | c</title></rect>
+<rect x="975.654" y="332.299" width="16.346" height="15.811" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_inventory_scan.c | 0x080415C0 | 228 bytes | c</title></rect>
+<rect x="875.859" y="348.110" width="15.642" height="16.233" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_bearing.c | 0x0800B5EC | 224 bytes | c</title></rect>
+<rect x="875.859" y="364.343" width="15.642" height="16.233" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spawn_player.c | 0x0800C320 | 224 bytes | c</title></rect>
+<rect x="875.859" y="380.575" width="15.642" height="16.233" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/skill_check2.c | 0x08016E18 | 224 bytes | c</title></rect>
+<rect x="875.859" y="396.808" width="15.642" height="16.233" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/message_wait.c | 0x0801CCC0 | 224 bytes | c</title></rect>
+<rect x="875.859" y="413.041" width="15.642" height="15.653" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/heap_top.c | 0x0800142C | 216 bytes | c</title></rect>
+<rect x="875.859" y="428.694" width="15.642" height="15.653" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/number_draw.c | 0x08026EA8 | 216 bytes | c</title></rect>
+<rect x="875.859" y="444.347" width="15.642" height="15.653" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_cursor_pos.c | 0x08045470 | 216 bytes | c</title></rect>
+<rect x="891.501" y="348.110" width="16.803" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save.c | 0x0800189C | 212 bytes | c</title></rect>
+<rect x="908.304" y="348.110" width="16.803" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/draw_sorted.c | 0x0800449C | 212 bytes | c</title></rect>
+<rect x="925.107" y="348.110" width="16.803" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/direction_to.c | 0x0800CB24 | 212 bytes | c</title></rect>
+<rect x="941.909" y="348.110" width="16.803" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_rise_effect.c | 0x08024530 | 212 bytes | c</title></rect>
+<rect x="958.712" y="348.110" width="16.803" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0803BE28.c | 0x0803BF94 | 212 bytes | c</title></rect>
+<rect x="975.514" y="348.110" width="16.486" height="14.302" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_cursor_mode.c | 0x080453A0 | 208 bytes | c</title></rect>
+<rect x="891.501" y="362.412" width="16.030" height="14.426" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/drop_item.c | 0x0800F5A8 | 204 bytes | c</title></rect>
+<rect x="891.501" y="376.838" width="16.030" height="14.143" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_anim.c | 0x08017EC0 | 200 bytes | c</title></rect>
+<rect x="891.501" y="390.981" width="16.030" height="14.143" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fill.c | 0x0804ECA0 | 200 bytes | c</title></rect>
+<rect x="891.501" y="405.124" width="16.030" height="13.860" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_load.c | 0x0800530C | 196 bytes | c</title></rect>
+<rect x="891.501" y="418.985" width="16.030" height="13.860" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode3_scroll.c | 0x0804A11C | 196 bytes | c</title></rect>
+<rect x="891.501" y="432.845" width="16.030" height="13.577" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/player_damage.c | 0x0800B52C | 192 bytes | c</title></rect>
+<rect x="891.501" y="446.423" width="16.030" height="13.577" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/spell_effect_start.c | 0x08029B1C | 192 bytes | c</title></rect>
+<rect x="907.531" y="362.412" width="14.532" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0804C9C4.c | 0x0804CB30 | 192 bytes | c</title></rect>
+<rect x="922.063" y="362.412" width="14.230" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_layer2_init.c | 0x08005050 | 188 bytes | c</title></rect>
+<rect x="936.293" y="362.412" width="14.230" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_enter_pos.c | 0x08019438 | 188 bytes | c</title></rect>
+<rect x="950.522" y="362.412" width="13.927" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map.c | 0x080060A8 | 184 bytes | c</title></rect>
+<rect x="964.449" y="362.412" width="13.927" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode3.c | 0x0804A560 | 184 bytes | c</title></rect>
+<rect x="978.376" y="362.412" width="13.624" height="14.976" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_start0.c | 0x0800C858 | 180 bytes | c</title></rect>
+<rect x="907.531" y="377.388" width="14.380" height="14.189" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode2.c | 0x08049F28 | 180 bytes | c</title></rect>
+<rect x="907.531" y="391.577" width="14.380" height="13.874" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_frame.c | 0x08047468 | 176 bytes | c</title></rect>
+<rect x="907.531" y="405.451" width="14.380" height="13.874" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/palette_fade_step.c | 0x0804E978 | 176 bytes | c</title></rect>
+<rect x="907.531" y="419.325" width="14.380" height="13.558" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/field_items_thread.c | 0x0801339C | 172 bytes | c</title></rect>
+<rect x="907.531" y="432.883" width="14.380" height="13.558" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/heal_near.c | 0x08016D6C | 172 bytes | c</title></rect>
+<rect x="907.531" y="446.442" width="14.380" height="13.558" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_apply.c | 0x0803FA94 | 172 bytes | c</title></rect>
+<rect x="921.911" y="377.388" width="14.490" height="13.456" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_quick_slots.c | 0x08040AD8 | 172 bytes | c</title></rect>
+<rect x="936.401" y="377.388" width="14.153" height="13.456" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/effect_number.c | 0x08018738 | 168 bytes | c</title></rect>
+<rect x="950.553" y="377.388" width="14.153" height="13.456" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_list_find.c | 0x08019CD0 | 168 bytes | c</title></rect>
+<rect x="964.706" y="377.388" width="13.816" height="13.456" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_price_buy.c | 0x08045280 | 164 bytes | c</title></rect>
+<rect x="978.521" y="377.388" width="13.479" height="13.456" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/window_kill.c | 0x08021D7C | 160 bytes | c</title></rect>
+<rect x="921.911" y="390.844" width="12.720" height="14.259" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0802D49C.c | 0x0802D5AC | 160 bytes | c</title></rect>
+<rect x="921.911" y="405.103" width="12.720" height="14.259" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0802D98C.c | 0x0802DA9C | 160 bytes | c</title></rect>
+<rect x="921.911" y="419.362" width="12.720" height="13.546" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_attr.c | 0x08006160 | 152 bytes | c</title></rect>
+<rect x="921.911" y="432.908" width="12.720" height="13.546" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_unload.c | 0x0800C5A4 | 152 bytes | c</title></rect>
+<rect x="921.911" y="446.454" width="12.720" height="13.546" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/name_list.c | 0x0801520C | 152 bytes | c</title></rect>
+<rect x="934.631" y="390.844" width="14.534" height="11.855" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_start.c | 0x08036E38 | 152 bytes | c</title></rect>
+<rect x="949.164" y="390.844" width="14.534" height="11.855" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode8_scroll.c | 0x0804C61C | 152 bytes | c</title></rect>
+<rect x="963.698" y="390.844" width="14.151" height="11.855" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_open.c | 0x0801B2B4 | 148 bytes | c</title></rect>
+<rect x="977.849" y="390.844" width="14.151" height="11.855" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0802CE40.c | 0x0802CF50 | 148 bytes | c</title></rect>
+<rect x="934.631" y="402.700" width="13.690" height="11.924" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/game_main.c | 0x08001970 | 144 bytes | c</title></rect>
+<rect x="934.631" y="414.623" width="13.690" height="11.924" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08029BB4.c | 0x08029CC4 | 144 bytes | c</title></rect>
+<rect x="934.631" y="426.547" width="13.690" height="11.924" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_threads2_free.c | 0x0803ED98 | 144 bytes | c</title></rect>
+<rect x="934.631" y="438.471" width="13.690" height="10.930" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x080409E8 | 132 bytes | pending</title></rect>
+<rect x="934.631" y="449.401" width="13.690" height="10.599" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_spawner_start.c | 0x08019A6C | 128 bytes | c</title></rect>
+<rect x="948.320" y="402.700" width="11.099" height="12.664" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_init.c | 0x080046A4 | 124 bytes | c</title></rect>
+<rect x="959.419" y="402.700" width="11.099" height="12.664" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_game.c | 0x0802F288 | 124 bytes | c</title></rect>
+<rect x="970.518" y="402.700" width="11.099" height="12.664" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_price.c | 0x08045324 | 124 bytes | c</title></rect>
+<rect x="981.617" y="402.700" width="10.383" height="12.664" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/map_bg.c | 0x080061F8 | 116 bytes | c</title></rect>
+<rect x="948.320" y="415.364" width="11.950" height="11.003" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_options.c | 0x0802F6B4 | 116 bytes | c</title></rect>
+<rect x="960.270" y="415.364" width="11.126" height="11.003" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/menu_item_price.c | 0x08040A6C | 108 bytes | c</title></rect>
+<rect x="971.396" y="415.364" width="10.714" height="11.003" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/centered_text.c | 0x080271E8 | 104 bytes | c</title></rect>
+<rect x="982.110" y="415.364" width="9.890" height="11.003" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/exp.c | 0x08017228 | 96 bytes | c</title></rect>
+<rect x="948.320" y="426.367" width="9.437" height="11.531" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode5.c | 0x0804B638 | 96 bytes | c</title></rect>
+<rect x="948.320" y="437.898" width="9.437" height="11.051" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0800EE44.c | 0x0800EF7C | 92 bytes | c</title></rect>
+<rect x="948.320" y="448.949" width="9.437" height="11.051" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/area_start_pos.c | 0x08021818 | 92 bytes | c</title></rect>
+<rect x="957.757" y="426.367" width="8.763" height="11.901" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode5_scroll.c | 0x0804AF00 | 92 bytes | c</title></rect>
+<rect x="957.757" y="438.268" width="8.763" height="10.866" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/exp_gain.c | 0x080171D4 | 84 bytes | c</title></rect>
+<rect x="957.757" y="449.134" width="8.763" height="10.866" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode1.c | 0x080497E4 | 84 bytes | c</title></rect>
+<rect x="966.520" y="426.367" width="8.840" height="8.720" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode0.c | 0x080490A4 | 68 bytes | c</title></rect>
+<rect x="975.360" y="426.367" width="8.320" height="8.720" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_080041D4.c | 0x0800432C | 64 bytes | c</title></rect>
+<rect x="983.680" y="426.367" width="8.320" height="8.720" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0802173C.c | 0x08021874 | 64 bytes | c</title></rect>
+<rect x="966.520" y="435.087" width="8.190" height="8.304" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08000F40 | 60 bytes | pending</title></rect>
+<rect x="966.520" y="443.391" width="8.190" height="8.304" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_080022BC.c | 0x08002404 | 60 bytes | c</title></rect>
+<rect x="966.520" y="451.696" width="8.190" height="8.304" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/hud_start.c | 0x0800C400 | 60 bytes | c</title></rect>
+<rect x="974.710" y="435.087" width="8.943" height="7.605" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode7_scroll.c | 0x0804BE78 | 60 bytes | c</title></rect>
+<rect x="983.653" y="435.087" width="8.347" height="7.605" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/title_menu_start.c | 0x0800288C | 56 bytes | c</title></rect>
+<rect x="974.710" y="442.692" width="8.991" height="6.556" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08002B58.c | 0x08002CB0 | 52 bytes | c</title></rect>
+<rect x="983.701" y="442.692" width="8.299" height="6.556" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_08006114.c | 0x0800626C | 48 bytes | c</title></rect>
+<rect x="974.710" y="449.248" width="8.856" height="5.632" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_damage.c | 0x0800EA94 | 44 bytes | c</title></rect>
+<rect x="974.710" y="454.880" width="8.856" height="5.120" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/enemy_slot.c | 0x0800EA6C | 40 bytes | c</title></rect>
+<rect x="983.566" y="449.248" width="8.434" height="4.301" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode8.c | 0x0804CB10 | 32 bytes | c</title></rect>
+<rect x="983.566" y="453.549" width="4.217" height="6.451" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/save_select_mode6.c | 0x0804BCF4 | 24 bytes | c</title></rect>
+<rect x="987.783" y="453.549" width="4.217" height="5.376" fill="#238636" stroke="#0d1117" stroke-width="0.5"><title>src/unk_0800277C.c | 0x080028C4 | 20 bytes | c</title></rect>
+<rect x="987.783" y="458.925" width="4.217" height="1.075" fill="#484f58" stroke="#0d1117" stroke-width="0.5"><title>Pending raw code | 0x08000000 | 4 bytes | pending</title></rect>
+<text x="14" y="484" fill="#e6edf3" font-size="12">Green: verified C module spans | Grey: pending raw code; no function counts claimed.</text>
+<text x="14" y="504" fill="#e6edf3" font-size="12">Header: 188 bytes excluded. EU and USA percentages measure separate regions.</text>
+<text x="14" y="524" fill="#e6edf3" font-size="12">Original multilingual data unchanged by the verified full-ROM build.</text>
+<text x="14" y="544" fill="#e6edf3" font-size="12">Evidence: owned local full-ROM rebuild receipt; CI does not own or reproduce the ROM.</text>
+</svg>
