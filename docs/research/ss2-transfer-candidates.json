@@ -1,0 +1,252 @@
+{
+  "status": "complete_read_only_reconnaissance",
+  "candidates": [
+    {
+      "ss1": "0802CA30",
+      "ss2": "08075088",
+      "historical_similarity": 0.85,
+      "ss1_span_bytes": 1040,
+      "ss1_asm": [
+        "asm/code_0802CA30.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08073E2C.c",
+          "line": 667
+        }
+      ],
+      "notes": "Highest impact/confidence; SS2 clean three-projectile loop is reusable source shape. SS1 resources 0x100005/0x110005/0x130005, palette 24; SS2 sprite initializer 0x5008C and palette7/8. SS1 positions Q12 vs SS2 Q8; speed40 vs2; damage abs(Random())%16+15*stat vs SS2 %50+50*stat. Preserve SS1 constants, struct strides, enemy states, calls. Existing historical draft was 4 normalized lines off.",
+      "priority": "priority1",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "080298C0",
+      "ss2": "080698D4",
+      "historical_similarity": 0.69,
+      "ss1_span_bytes": 332,
+      "ss1_asm": [
+        "asm/spell_effect_thread.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08068670.c",
+          "line": 944
+        }
+      ],
+      "notes": "Shared status animation loop; SS1 fetches separate resources, kind translation and extra parameter at+6; SS2 sprite init and switch mapping. Existing draft documented in NEXT; referenced tmp draft absent in fresh fork.",
+      "priority": "secondary",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "08023048",
+      "ss2": "0805FC80",
+      "historical_similarity": 0.68,
+      "ss1_span_bytes": 744,
+      "ss1_asm": [
+        "asm/item_icon.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_0805FB7C.c",
+          "line": 61
+        }
+      ],
+      "notes": "Shared category/resource/overlay icon draw flow, but SS1 Item is packed word category/id bitfields; SS2 item uses halfword tag/id with extra bytes. SS2 position passed as two-word struct; SS1 x/y separate. Requires adapting field extraction, resource IDs/offsets and sprite calls. Historical85 lines register differences.",
+      "priority": "secondary",
+      "already_queued": false,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "0802D53C",
+      "ss2": "080785F4",
+      "historical_similarity": 0.66,
+      "ss1_span_bytes": 1104,
+      "ss1_asm": [
+        "asm/code_0802D53C.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08073E2C.c",
+          "line": 2709
+        }
+      ],
+      "notes": "Shared enemy-shot aimed-at-player loop; SS1 enemy stride94 vs SS2 2E0; resource/animation setup differs. NEXT explicitly documents SS1 uninitialized stack pointer read in original: do not adopt invalid C draft with uninitialized other. Historical15 normalized.",
+      "priority": "secondary",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "0802AB94",
+      "ss2": "0806BE24",
+      "historical_similarity": 0.65,
+      "ss1_span_bytes": 1440,
+      "ss1_asm": [
+        "asm/code_08029C44.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08068670.c",
+          "line": 1999
+        }
+      ],
+      "notes": "Largest listed candidate1440 bytes; SS2 clean behavior reference for skill projectile. Shared giant skill/thread family with 29C44/B638; split individual function from existing module before integration. Player/enemy structs, fixed-point scales, resource helpers differ.",
+      "priority": "secondary",
+      "already_queued": false,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "08002790",
+      "ss2": "080066BC",
+      "historical_similarity": 0.57,
+      "ss1_span_bytes": 968,
+      "ss1_asm": [
+        "asm/code_08002790.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08002118.c",
+          "line": 3061
+        }
+      ],
+      "notes": "968-byte link lobby loop; historically low similarity and SS1 draft far off. Lower return than top3.",
+      "priority": "defer",
+      "already_queued": false,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "08005A2C",
+      "ss2": "0800B118",
+      "historical_similarity": 0.55,
+      "ss1_span_bytes": 1316,
+      "ss1_asm": [
+        "asm/code_08005A2C.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08009088.c",
+          "line": 1340
+        }
+      ],
+      "notes": "1316-byte directional collision query; SS2 direction/x/y/flags query provides switch/loop reference. SS1 fixed-point and map format differences demand exact adaptation. Existing permute_queue entry.",
+      "priority": "secondary",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "08029C44",
+      "ss2": "08069C44",
+      "historical_similarity": 0.53,
+      "ss1_span_bytes": 1208,
+      "ss1_asm": [
+        "asm/code_08029C44.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08068670.c",
+          "line": 1128
+        }
+      ],
+      "notes": "1208-byte skill thread shares module with AB94/B638 plus intervening functions; replace whole module only after all contents covered or split first. Existing permute_queue entry.",
+      "priority": "secondary",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "0802B638",
+      "ss2": "0806DB1C",
+      "historical_similarity": 0.52,
+      "ss1_span_bytes": 1020,
+      "ss1_asm": [
+        "asm/code_08029C44.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08068670.c",
+          "line": 3345
+        }
+      ],
+      "notes": "1020-byte skill thread shares module with29C44/AB94; split first. Existing permute_queue entry.",
+      "priority": "secondary",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "0800C8F8",
+      "ss2": "08096154",
+      "historical_similarity": 0.8,
+      "ss1_span_bytes": 244,
+      "ss1_asm": [
+        "asm/nearest_player.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08095B04.c",
+          "line": 350
+        }
+      ],
+      "notes": "Shared distance/index array plus nested sorting and Sqrt. SS1 entity x/y at10/14 Q12, player strideD4 and pointerD0; SS2 entity14/18 Q8, player stride14C and pointer148. SS1 filter kind8/layer and integer radius; SS2 flags and pointer limit. SS2 explicit registers/asm barriers/XOR swap are match scaffolding, not portable solutions. SS1 plain swap required. Historical SS1 draft30 normalized.",
+      "priority": "priority3",
+      "already_queued": true,
+      "queued_draft_present": false
+    },
+    {
+      "ss1": "08004AE4",
+      "ss2": "08009594",
+      "historical_similarity": 0.8,
+      "ss1_span_bytes": 764,
+      "ss1_asm": [
+        "asm/code_08004AE4.s"
+      ],
+      "linked_asm": true,
+      "ss2_source": [
+        {
+          "path": "src/code_08009088.c",
+          "line": 201
+        }
+      ],
+      "notes": "Shared incremental tile row/column scrolling loops; SS1 selects gMapLayer_03003910/03003C00 by sub_08007544, SS2 single global Layer array. Rewrite game-specific prelude; do not copy level5/8/10 switch. SS2 S16_8009594 identity inline retains narrowing; non-void return avoids epilogue r0 clobber. Historical SS1 draft far off.",
+      "priority": "priority2",
+      "already_queued": false,
+      "queued_draft_present": false
+    }
+  ],
+  "total_candidate_span_bytes": 10180,
+  "next3": [
+    "0802CA30",
+    "08004AE4",
+    "0800C8F8"
+  ],
+  "method": [
+    "Read CLAUDE.md, README, linker, config/functions.cfg, config/names.txt, config/permute_queue.txt, docs/NEXT.md.",
+    "Confirmed actual function-entry labels in linked ASM, not reference hits.",
+    "Span bytes from next registered entry; include literal pools/alignment, not instruction-only estimate.",
+    "Located actual SS2 C definitions and inspected key matching structures against SS1 ASM. Historical similarity retained as unverified hypothesis.",
+    "No source changes, build, ROM comparison, or Git operations. Only this ignored research JSON written."
+  ],
+  "rules": [
+    "Full ROM byte identity is final acceptance gate: make compare must report shiningsoul.gba: OK.",
+    "No game data copying; do not transplant SS2 data, structs, literals, symbol addresses, fixed-point scale or compiler constraints blindly.",
+    "Unknown names marked guesses. Preserve matching semantics; invalid uninitialized-variable permuter candidates prohibited.",
+    "Existing queue instructions favor permutation once logic correct. Fresh checkout has queue references but tmp/drafts absent: recover authorized drafts before duplicating prior work."
+  ],
+  "next3_actions": [
+    "Recover 0802CA30_perm draft if available; compare its four historical residuals to SS2 variable lifetimes; adapt clean SS2 loop only where SS1 ASM agrees; use fcheck then make compare.",
+    "Build SS1-only 08004AE4 C from SS2 scrolling core with SS1 bank selector and level branches; inspect u16 arguments/s16 locals and non-void epilogue.",
+    "Implement SS1 nearest-player sorting using simple swaps plus correct integer radius and entity filtering; SS2 only as array-loop source reference; evaluate list[5][2] versus parallel pointers."
+  ],
+  "ss1_revision": "52c0fa73870fab238941e32be7eff172e9bad71f",
+  "ss2_revision": "698bbe6af4968fa6b9eefb01bcf0ae16639da681",
+  "policy": "Research candidates only. Similarities are historical, not freshly measured matching scores. No SS1 matching credit until full make compare succeeds against the expected USA ROM."
+}

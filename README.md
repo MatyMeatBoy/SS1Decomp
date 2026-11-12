@@ -3,6 +3,79 @@
 A work-in-progress decompilation of *Shining Soul* (Game Boy Advance, USA).
 The goal is C source that compiles back into a byte-identical ROM.
 
+This fork continues **[emmkay440's original SS1 decompilation](https://github.com/emmkay440/SS1Decomp)**
+with his permission. His work and contributions remain credited throughout the
+project and derived work. See [credits](CREDITS.md) and the preserved Git history.
+Fork maintenance and new contributions: **MatyMeatBoy**.
+
+The continuation also targets the original European multilingual release
+(`AHUP`: English, French, German, Italian and Spanish). The existing USA work is
+preserved; its source-coverage figures below must not be presented as verified
+European coverage. Regional builds and their verification are tracked separately.
+
+## Progress at a glance
+
+![C source coverage](docs/progress/badge_decompiled.svg)
+![C functions](docs/progress/badge_functions.svg)
+![Existing game names](docs/progress/badge_names.svg)
+![Data identification](docs/progress/badge_data.svg)
+![ROM verification](docs/progress/badge_rom.svg)
+
+The presentation follows [SS2Decomp](https://github.com/MatyMeatBoy/SS2Decomp).
+Code, names and data are separate measurements. Green code cells show **linked
+C source coverage**; only a successful check against your own ROM establishes
+an exact matching build. The ROM-free CI inventory always says **not verified**.
+
+<details open>
+<summary><b>Code</b> — which functions are implemented in C?</summary>
+
+![Code treemap](docs/progress/treemap.svg)
+
+Each cell represents a function's attributed linked span, including literal
+pools and alignment. Green is linked C, mint is original hand-written assembly,
+and grey is pending assembly. SDK code has its own enlarged panel. Aliases at
+the same address count once; the 188-byte cartridge header does not count as
+executable code. The original 4-byte SDK multiply trampoline is classified with
+the library rather than game code.
+
+</details>
+
+<details>
+<summary><b>Names</b> — which functions have existing names?</summary>
+
+![Existing names](docs/progress/names_treemap.svg)
+
+Existing descriptive symbols are shown separately from anonymous `sub_` names.
+This is an inventory, not independent confirmation of every name's meaning, and
+names do not earn C or ROM-matching credit.
+
+</details>
+
+<details>
+<summary><b>Data</b> — preservation versus identified formats</summary>
+
+![Data inventory](docs/progress/data.svg)
+
+Raw data is still supplied by the owner's ROM during a real build. Preserving
+that data does not mean its formats have been identified; the initial inventory
+credits no data-format identification.
+
+</details>
+
+[Full report](docs/progress/progress.md) · [Machine-readable inventory](docs/progress/progress.json)
+· [SS2 reuse candidates](docs/research/SS2_REUSE.md)
+
+Generate these views with `make progress-map` after installing agbcc and ARM
+binutils. It builds isolated metadata under `build/metadata/`, substituting zeros
+only for the known cartridge-header and opaque-data regions; it never creates a
+ROM or modifies ordinary game objects. GitHub Actions regenerates the same views
+after updates to `main`. The original `make progress` command below still uses
+the actual built ROM and retains its JSON and CSV interface.
+
+The metadata report exposes legacy-compatible byte totals as well as the
+header-excluded, separately classified presentation above. A different
+denominator is not a newly decompiled function.
+
 **This repository contains no game data.** You need your own copy of the
 game. The build pulls everything that isn't code (graphics, music, text,
 tables, the cartridge header) out of your ROM at build time, and the

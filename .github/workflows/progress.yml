@@ -1,0 +1,63 @@
+name: source inventory
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  AGBCC_REVISION: da598c1d918402c42c0c0d7128ba14567f3175e9
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install compiler dependencies
+        run: sudo apt-get update && sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi build-essential python3
+      - name: Build upstream agbcc toolchain
+        run: |
+          git init tools/agbcc-src
+          git -C tools/agbcc-src remote add origin https://github.com/pret/agbcc
+          git -C tools/agbcc-src fetch --depth 1 origin "$AGBCC_REVISION"
+          git -C tools/agbcc-src checkout --detach FETCH_HEAD
+          cd tools/agbcc-src
+          ./build.sh
+          ./install.sh ../..
+      - name: Test inventory guards and rendering
+        run: python3 -m unittest discover -s tests -v
+      - name: Compile isolated metadata and generate report
+        run: python3 tools/scripts/update_progress.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ss1-progress
+          path: docs/progress/
+
+  publish:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install compiler dependencies
+        run: sudo apt-get update && sudo apt-get install -y binutils-arm-none-eabi gcc-arm-none-eabi build-essential python3
+      - name: Build upstream agbcc toolchain
+        run: |
+          git init tools/agbcc-src
+          git -C tools/agbcc-src remote add origin https://github.com/pret/agbcc
+          git -C tools/agbcc-src fetch --depth 1 origin "$AGBCC_REVISION"
+          git -C tools/agbcc-src checkout --detach FETCH_HEAD
+          cd tools/agbcc-src
+          ./build.sh
+          ./install.sh ../..
+      - name: Publish from fresh main
+        run: |
+          git config user.name MatyMeatBoy
+          git config user.email 108221324+MatyMeatBoy@users.noreply.github.com
+          python3 tools/scripts/publish_progress.py
