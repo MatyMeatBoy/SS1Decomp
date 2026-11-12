@@ -6,7 +6,8 @@ mGBA tracing workflow, docs/variables.md for RAM/struct findings.
 
 ## Rules
 
-- `make compare` must print `shiningsoul.gba: OK` after every change. Use
+- `make compare` must print `shiningsoul.gba: OK` after every game-code,
+  assembly, header, linker, ROM-profile or ordinary compiler-rule change. Use
   `make check FUNC=Name` / `make diff` to find mismatches.
 - Never commit or copy game data. Everything that isn't code is `.incbin`'d
   from the user's `baserom.gba`.
@@ -19,6 +20,21 @@ mGBA tracing workflow, docs/variables.md for RAM/struct findings.
   (check that no ROM, saves, traces or build output are staged). Never
   commit a non-matching build. Never push; pushing is only done when the
   user explicitly asks.
+
+### Reporting-only work in this fork
+
+The MatyMeatBoy fork also publishes ROM-free progress in the SS2 style. A change
+limited to documentation, progress tooling/tests, isolated metadata targets and
+their CI may use the metadata/test gate when no game sources, assembly, headers,
+linker files, ROM profiles or existing game compiler recipes change. Run the
+focused tests, rebuild all isolated metadata objects, verify the expected code
+boundary and inspect the generated views. This exception does not establish a
+matching ROM or permit integration of a game-code draft.
+
+Metadata objects must remain under `build/metadata/`; they must never replace
+ordinary objects or create a ROM. Publish only the JSON/Markdown/SVG reports,
+with `rom_match_verified: false`. Keep the ordinary USA `make compare` gate for
+all game-code work. A Europe AHUP dump cannot satisfy the USA AHUE SHA1 check.
 
 ## Current state (2026-10-19)
 

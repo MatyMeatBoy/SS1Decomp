@@ -73,3 +73,15 @@ $(ROM): $(ELF)
 
 clean:
 	rm -f $(ROM) $(ELF) $(MAP) $(S_SRCS:.s=.o) $(C_SRCS:.c=.o) $(C_SRCS:.c=.s)
+
+# ROM-free source inventory. These isolated objects never enter the game build.
+JOBS ?= 4
+.PHONY: metadata progress-map test-progress
+metadata:
+	python3 tools/scripts/metadata_build.py --jobs $(JOBS)
+
+progress-map: metadata
+	python3 tools/scripts/progress_visuals.py --metadata-dir build/metadata --out docs/progress
+
+test-progress:
+	python3 -m unittest discover -s tests -v
