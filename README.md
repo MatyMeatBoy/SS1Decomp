@@ -194,8 +194,8 @@ Use `REGION=us` for its build/check commands. European shared-module work follow
 | `make compare-us` | original USA build is byte-identical to the AHUE original |
 | `make progress` | verify and show European progress |
 | `make progress-us` | original USA code/names/data inventory (`RECORD=1` logs CSV) |
-| `make diff` | which functions differ after a change broke matching, and where code shifted |
-| `make check FUNC=Name` | instruction diff of one function against the original |
+| `make REGION=us diff` | USA backend: which functions differ and where code shifted |
+| `make REGION=us check FUNC=Name` | USA backend: instruction diff of one function |
 
 ## Research (finding out what functions do)
 
@@ -215,6 +215,8 @@ See [docs/RESEARCH.md](docs/RESEARCH.md): play in mGBA while
   the code. Treat any name you can't verify as a guess and say so in a comment.
 
 ## Ghidra
+
+The following commands and symbol addresses describe the USA reference profile.
 
 Create a project from your own ROM, then apply the repo's names:
 

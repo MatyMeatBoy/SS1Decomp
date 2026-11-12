@@ -57,7 +57,7 @@
 ### Task 5: Review and delivery
 
 - [x] Independently review generator, metrics, attribution and candidate evidence.
-- [ ] Run required checks and `make compare` when its required ROM is available.
+- [x] Run 52 tests and the full owned-EU `make compare` gate; USA ROM remains unavailable.
 - [x] Publish the reporting setup: PR1 merged with successful Linux CI. European matching profile is the next separately verified delivery.
 
 ## European multilingual continuation
