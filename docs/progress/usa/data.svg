@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" role="img" aria-labelledby="title desc" font-family="Segoe UI,Helvetica,Arial,sans-serif"><title id="title">Shining Soul | data preservation and identification</title><desc id="desc">Opaque data receives no format-identification credit.</desc>
+<rect width="100%" height="100%" fill="#0d1117"/>
+<text x="16" y="28" fill="#e6edf3" font-size="17">Shining Soul | data preservation and identification</text>
+<text x="16" y="62" fill="#e6edf3" font-size="13">Opaque preserved data: 8,050,532 bytes</text>
+<text x="16" y="89" fill="#e6edf3" font-size="13">Identified formats: 0 bytes (0% credited)</text>
+<text x="16" y="116" fill="#e6edf3" font-size="13">Metadata-only builds substitute zero storage; game assets are not published.</text>
+<text x="16" y="143" fill="#e6edf3" font-size="13">Cartridge header: 188 excluded bytes; startup branch remains code.</text>
+<text x="16" y="170" fill="#e6edf3" font-size="13">Preservation is not identification or ROM verification.</text>
+</svg>

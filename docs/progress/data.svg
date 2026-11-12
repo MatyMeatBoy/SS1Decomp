@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" role="img" aria-labelledby="title desc" font-family="Segoe UI,Helvetica,Arial,sans-serif"><title id="title">Shining Soul | data preservation and identification</title><desc id="desc">Opaque data receives no format-identification credit.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="182" viewBox="0 0 1000 182" role="img" aria-labelledby="title desc" font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<title id="title">EU AHUP | data preservation and identification</title>
+<desc id="desc">Original asset region: 8,049,872 bytes. Original multilingual data unchanged by the verified full-ROM build. Identified data formats: 0 bytes (0% credited). Preservation of multilingual bytes is separate from understanding their formats.</desc>
 <rect width="100%" height="100%" fill="#0d1117"/>
-<text x="16" y="28" fill="#e6edf3" font-size="17">Shining Soul | data preservation and identification</text>
-<text x="16" y="62" fill="#e6edf3" font-size="13">Opaque preserved data: 8,050,532 bytes</text>
-<text x="16" y="89" fill="#e6edf3" font-size="13">Identified formats: 0 bytes (0% credited)</text>
-<text x="16" y="116" fill="#e6edf3" font-size="13">Metadata-only builds substitute zero storage; game assets are not published.</text>
-<text x="16" y="143" fill="#e6edf3" font-size="13">Cartridge header: 188 excluded bytes; startup branch remains code.</text>
-<text x="16" y="170" fill="#e6edf3" font-size="13">Preservation is not identification or ROM verification.</text>
+<text x="16" y="30" fill="#e6edf3" font-size="18">EU AHUP | data preservation and identification</text>
+<text x="16" y="64" fill="#e6edf3" font-size="13">Original asset region: 8,049,872 bytes.</text>
+<text x="16" y="92" fill="#e6edf3" font-size="13">Original multilingual data unchanged by the verified full-ROM build.</text>
+<text x="16" y="120" fill="#e6edf3" font-size="13">Identified data formats: 0 bytes (0% credited).</text>
+<text x="16" y="148" fill="#e6edf3" font-size="13">Preservation of multilingual bytes is separate from understanding their formats.</text>
 </svg>

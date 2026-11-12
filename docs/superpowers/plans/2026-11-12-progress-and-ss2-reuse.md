@@ -35,27 +35,44 @@
 
 ### Task 2: Reproducible metadata-only layout
 
-- [ ] Add `tools/scripts/metadata_build.py` with isolated outputs and strict incbin guards.
-- [ ] Add meaningful tests in `tests/test_metadata_build.py`.
-- [ ] Compile/link all code with the original flags; verify expected code/data boundaries.
+- [x] Add `tools/scripts/metadata_build.py` with isolated outputs and strict incbin guards.
+- [x] Add meaningful tests in `tests/test_metadata_build.py`.
+- [x] Compile/link all code with the original flags; verify expected code/data boundaries.
 
 ### Task 3: SS2-style presentation
 
-- [ ] Add inventory/report rendering in `tools/scripts/progress_visuals.py`.
-- [ ] Adapt SS2 badge/treemap rendering with attribution, using SS1 metrics.
-- [ ] Add README code/names/data views, explicit verification status and generation commands.
-- [ ] Add ROM-free CI generation and preserve the legacy `make progress` interface.
-- [ ] Check numeric partitions, XML output and absence of game assets in staged files.
+- [x] Add inventory/report rendering in `tools/scripts/progress_visuals.py`.
+- [x] Adapt SS2 badge/treemap rendering with attribution, using SS1 metrics.
+- [x] Add README code/names/data views, explicit verification status and generation commands.
+- [x] Add ROM-free CI generation and preserve the legacy `make progress` interface.
+- [x] Check numeric partitions, XML output and absence of game assets in staged files.
 
 ### Task 4: Initial SS2 transfer cohort
 
 - [x] Compare historical SS1/SS2 candidates against current linked source.
-- [ ] Preserve the reviewed candidate manifest and missing-draft recovery notes.
-- [ ] Adapt a selected candidate in an isolated checkout when its inputs and ROM gate are available.
+- [x] Preserve the reviewed candidate manifest and missing-draft recovery notes.
+- [x] Attempt a selected candidate in an isolated checkout; preserve the unsuccessful natural-C draft without credit.
 - [ ] Credit a gain only after the full ROM check; preserve nonmatching attempts as scratch drafts.
 
 ### Task 5: Review and delivery
 
-- [ ] Independently review generator, metrics, attribution and candidate evidence.
-- [ ] Run required checks and `make compare` when its required ROM is available.
-- [ ] Publish the finished setup in a reviewable PR, with exact validation and any remaining blockers.
+- [x] Independently review generator, metrics, attribution and candidate evidence.
+- [x] Run 52 tests and the full owned-EU `make compare` gate; USA ROM remains unavailable.
+- [x] Publish the reporting setup: PR1 merged with successful Linux CI. European matching profile is the next separately verified delivery.
+
+## European multilingual continuation
+
+The owner supplied the European AHUP dump and confirmed that preserving its
+five original languages is required. USA coverage remains a separate source
+inventory, not a newly verified USA ROM.
+
+- [x] Verify owned EU SHA1 and locate actual language selector.
+- [x] Find strict relocation-aware whole-module correspondences.
+- [x] Rebuild all 8 MiB exactly with 292 compiled C modules: 137,224 / 338,548 executable bytes.
+- [x] Independently check every linked C span and preserve all asset bytes.
+- [x] Resolve final tooling review findings and rerun the full EU gate.
+- [ ] Publish the EU profile PR and confirm CI plus generated reports.
+
+The USA full-ROM gate above remains unavailable locally; no USA ROM verification
+is claimed. EU verification is against the separate original AHUP dump, not a
+patched checksum or substituted USA image.

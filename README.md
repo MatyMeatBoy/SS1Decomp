@@ -1,6 +1,7 @@
-# Shining Soul (USA) decompilation
+# SS1Decomp — Shining Soul
 
-A work-in-progress decompilation of *Shining Soul* (Game Boy Advance, USA).
+A work-in-progress decompilation of *Shining Soul* (Game Boy Advance), preserving
+the original USA work and the European multilingual release.
 The goal is C source that compiles back into a byte-identical ROM.
 
 This fork continues **[emmkay440's original SS1 decompilation](https://github.com/emmkay440/SS1Decomp)**
@@ -13,80 +14,123 @@ The continuation also targets the original European multilingual release
 preserved; its source-coverage figures below must not be presented as verified
 European coverage. Regional builds and their verification are tracked separately.
 
-## Progress at a glance
+## Progress — Europe (AHUP)
 
-![C source coverage](docs/progress/badge_decompiled.svg)
-![C functions](docs/progress/badge_functions.svg)
-![Existing game names](docs/progress/badge_names.svg)
+![European verified C](docs/progress/badge_decompiled.svg)
+![European ROM rebuild](docs/progress/badge_rom.svg)
+![Function inventory](docs/progress/badge_functions.svg)
+![Names inventory](docs/progress/badge_names.svg)
 ![Data identification](docs/progress/badge_data.svg)
-![ROM verification](docs/progress/badge_rom.svg)
 
-The presentation follows [SS2Decomp](https://github.com/MatyMeatBoy/SS2Decomp).
-Code, names and data are separate measurements. Green code cells show **linked
-C source coverage**; only a successful check against your own ROM establishes
-an exact matching build. The ROM-free CI inventory always says **not verified**.
+The primary profile is the owner's original European multilingual ROM. The
+presentation follows [SS2Decomp](https://github.com/MatyMeatBoy/SS2Decomp), with
+code, names and data measured separately.
 
 <details open>
-<summary><b>Code</b> — which functions are implemented in C?</summary>
+<summary><b>Code</b> — verified C versus pending raw code</summary>
 
-![Code treemap](docs/progress/treemap.svg)
+![European code treemap](docs/progress/treemap.svg)
 
-Each cell represents a function's attributed linked span, including literal
-pools and alignment. Green is linked C, mint is original hand-written assembly,
-and grey is pending assembly. SDK code has its own enlarged panel. Aliases at
-the same address count once; the 188-byte cartridge header does not count as
-executable code. The original 4-byte SDK multiply trampoline is classified with
-the library rather than game code.
+Green cells are complete C modules that reproduce their European byte spans.
+Grey cells remain raw pending code, not credited disassembly. Area includes
+literal pools and alignment; the 188-byte cartridge header is excluded. The
+complete regional function count is not yet measured.
 
-</details>
-
-<details>
-<summary><b>Names</b> — which functions have existing names?</summary>
-
-![Existing names](docs/progress/names_treemap.svg)
-
-Existing descriptive symbols are shown separately from anonymous `sub_` names.
-This is an inventory, not independent confirmation of every name's meaning, and
-names do not earn C or ROM-matching credit.
+The first verified cohort (2026-11-12) contains **292 C modules**, covering
+**137,224 / 338,548 code bytes (40.533%)**. All 8 MiB rebuilt exactly, including
+the original language selector and multilingual assets. The badges and generated
+report carry the current result; this cohort is a historical checkpoint.
 
 </details>
 
 <details>
-<summary><b>Data</b> — preservation versus identified formats</summary>
+<summary><b>Names</b> — regional inventory still to be measured</summary>
 
-![Data inventory](docs/progress/data.svg)
+![European names status](docs/progress/names_treemap.svg)
 
-Raw data is still supplied by the owner's ROM during a real build. Preserving
-that data does not mean its formats have been identified; the initial inventory
-credits no data-format identification.
+Shared C modules retain source symbols, but a complete independently identified
+European function inventory has not been established. No USA naming percentage
+or invented function denominator is applied to Europe.
 
 </details>
 
-[Full report](docs/progress/progress.md) · [Machine-readable inventory](docs/progress/progress.json)
-· [SS2 reuse candidates](docs/research/SS2_REUSE.md)
+<details>
+<summary><b>Data</b> — preserved original assets, format credit separate</summary>
 
-Generate these views with `make progress-map` after installing agbcc and ARM
-binutils. It builds isolated metadata under `build/metadata/`, substituting zeros
-only for the known cartridge-header and opaque-data regions; it never creates a
-ROM or modifies ordinary game objects. GitHub Actions regenerates the same views
-after updates to `main`. The original `make progress` command below still uses
-the actual built ROM and retains its JSON and CSV interface.
+![European data status](docs/progress/data.svg)
 
-The metadata report exposes legacy-compatible byte totals as well as the
-header-excluded, separately classified presentation above. A different
-denominator is not a newly decompiled function.
+Original data remains byte-identical in the verified rebuild. Preservation does
+not earn format-identification credit; the initial report credits zero bytes.
+No game assets are distributed here.
+
+</details>
+
+[Current EU report](docs/progress/progress.md) · [Machine-readable result](docs/progress/progress.json)
+· [Regional workflow](docs/REGIONS.md) · [SS2 reuse candidates](docs/research/SS2_REUSE.md)
+
+The [verification receipt](config/regions/eu_verified.json) contains source hashes
+and span evidence only. CI checks that those inputs remain current; it does not
+possess or rebuild the owner's ROM. Changed or incomplete inputs invalidate the
+recorded credit. `make progress` performs the actual EU gate with your ROM;
+`make progress-map` regenerates the public views without a ROM.
+
+## USA reference (secondary)
+
+<details>
+<summary>Preserved upstream source inventory — separate from Europe</summary>
+
+![USA C source coverage](docs/progress/usa/badge_decompiled.svg)
+![USA C functions](docs/progress/usa/badge_functions.svg)
+![USA existing names](docs/progress/usa/badge_names.svg)
+![USA ROM verification](docs/progress/usa/badge_rom.svg)
+
+![USA source treemap](docs/progress/usa/treemap.svg)
+
+Green shows linked C source coverage, not a newly verified USA ROM. The existing
+USA sources are preserved. Header bytes are excluded, aliases count once and
+SDK code is separate. Legacy-compatible byte totals remain in the report.
+Names and preserved opaque data do not earn C or ROM-match credit.
+
+[USA inventory](docs/progress/usa/progress.md) · [USA JSON](docs/progress/usa/progress.json)
+
+Use `make REGION=us compare` or `make compare-us` with your own AHUE ROM. The
+original USA `progress.py --json` and CSV interface remain available through
+`make progress-us`.
+
+</details>
 
 **This repository contains no game data.** You need your own copy of the
 game. The build pulls everything that isn't code (graphics, music, text,
 tables, the cartridge header) out of your ROM at build time, and the
 result is checked against the original by SHA1.
 
+## European multilingual build
+
+Place your own original European dump in this directory as `baserom_eu.gba`.
+It must be 8 MiB, game code `AHUP`, SHA1
+`6e80a65cca65236e405940c880b144d77f3f4f08`. Then run:
+
+```sh
+make compare-eu
+```
+
+This compiles isolated source objects, finds strict relocation-aware whole-module
+matches, links the proven C modules at their European addresses and preserves
+all other original bytes as pending raw spans. Credit is granted only after the
+complete rebuilt ROM is byte-identical and its SHA1 matches. Nothing is patched
+to pretend the European cartridge is the USA version.
+
+`make record-eu` runs that same full gate, then updates the text-only receipt.
+Stage the source changes and receipt together; never stage the ROM or objects.
+The USA source recipes remain available explicitly with `REGION=us`.
+
+## USA setup
+
 | | |
 |---|---|
 | Game code | `AHUE` |
 | ROM SHA1 | `14723ead8634959b4fad027d9618c0860b82ea67` |
 
-## Setup
 
 1. Dump your cartridge (e.g. with a GBxCart RW or GB Operator) and put the ROM
    in this directory as `baserom.gba`. It must match the SHA1 above.
@@ -95,7 +139,7 @@ result is checked against the original by SHA1.
 3. Build the tools: `tools/setup.sh`
    (builds [agbcc](https://github.com/pret/agbcc), the GCC 2.95-based compiler
    the game was built with, and [gbadisasm](https://github.com/jiangzhengwenjz/gbadisasm)).
-4. `make compare` should print `shiningsoul.gba: OK`.
+4. `make REGION=us compare` should print `shiningsoul.gba: OK`.
 
 ## Layout
 
@@ -128,6 +172,10 @@ tools/ghidra/   Ghidra scripts for a matching Ghidra project
 
 ## Decompiling a function
 
+The original split/check tools below describe the preserved USA source tree.
+Use `REGION=us` for its build/check commands. European shared-module work follows
+[the regional workflow](docs/REGIONS.md) and the full AHUP comparison gate.
+
 1. Pick a group of functions and carve it out into its own module:
    `tools/scripts/split_asm.py asm/code.s FirstFunc NextFunc module_name`.
    This creates `asm/module_name.s` and adds it to `ld_script.ld` in link order.
@@ -142,10 +190,12 @@ tools/ghidra/   Ghidra scripts for a matching Ghidra project
 
 | Command | Tells you |
 |---|---|
-| `make compare` | built ROM is byte-identical to the original |
-| `make progress` | % of game code in C, functions named, data identified (`RECORD=1` logs to `progress.csv`) |
-| `make diff` | which functions differ after a change broke matching, and where code shifted |
-| `make check FUNC=Name` | instruction diff of one function against the original |
+| `make compare` | full European ROM is byte-identical to the owned AHUP original |
+| `make compare-us` | original USA build is byte-identical to the AHUE original |
+| `make progress` | verify and show European progress |
+| `make progress-us` | original USA code/names/data inventory (`RECORD=1` logs CSV) |
+| `make REGION=us diff` | USA backend: which functions differ and where code shifted |
+| `make REGION=us check FUNC=Name` | USA backend: instruction diff of one function |
 
 ## Research (finding out what functions do)
 
@@ -165,6 +215,8 @@ See [docs/RESEARCH.md](docs/RESEARCH.md): play in mGBA while
   the code. Treat any name you can't verify as a guess and say so in a comment.
 
 ## Ghidra
+
+The following commands and symbol addresses describe the USA reference profile.
 
 Create a project from your own ROM, then apply the repo's names:
 

@@ -1,5 +1,11 @@
-# Shining Soul (USA) decompilation
-# Requires baserom.gba (your own dump, SHA1 in shiningsoul.sha1) in this directory.
+# Shining Soul regional decompilation. Europe is the primary profile.
+REGION ?= eu
+ifneq ($(REGION),eu)
+ifneq ($(REGION),us)
+$(error Unsupported REGION '$(REGION)'; use eu or us)
+endif
+endif
+.DEFAULT_GOAL := all
 
 PREFIX  ?= arm-none-eabi-
 AS      := $(PREFIX)as
@@ -26,15 +32,23 @@ C_SRCS  := $(wildcard src/*.c src/lib/*.c)
 .PHONY: all compare clean check_baserom progress diff check
 .SECONDARY:
 
+ifeq ($(REGION),us)
 all: $(ROM)
-
 compare: $(ROM)
 	@sha1sum -c shiningsoul.sha1
-
-# How far along the decomp is, and whether the ROM still matches.
-# RECORD=1 also appends to progress.csv to track the trend.
 progress: $(ROM)
 	@python3 tools/scripts/progress.py $(if $(RECORD),--record)
+else
+all: compare-eu
+compare: compare-eu
+progress: compare-eu
+endif
+
+.PHONY: compare-us progress-us
+compare-us:
+	$(MAKE) REGION=us compare
+progress-us:
+	$(MAKE) REGION=us progress $(if $(RECORD),RECORD=$(RECORD))
 
 # Which functions differ from the original (after a change broke matching).
 diff: $(ROM)
@@ -80,8 +94,20 @@ JOBS ?= 4
 metadata:
 	python3 tools/scripts/metadata_build.py --jobs $(JOBS)
 
-progress-map: metadata
-	python3 tools/scripts/progress_visuals.py --metadata-dir build/metadata --out docs/progress
+progress-map:
+	python3 tools/scripts/update_progress.py
 
 test-progress:
 	python3 -m unittest discover -s tests -v
+
+# European multilingual build: only proven C modules replace raw pending spans.
+EU_ROM ?= baserom_eu.gba
+.PHONY: compare-eu record-eu
+compare-eu: metadata
+	python3 tools/scripts/eu_module_match.py --metadata-dir build/metadata --rom "$(EU_ROM)" --out build/eu-candidates.json
+	python3 tools/scripts/eu_build.py --metadata-dir build/metadata --rom "$(EU_ROM)" --candidates build/eu-candidates.json
+	python3 tools/scripts/region_progress.py --report build/eu/report.json --out docs/progress
+
+# Record only the successful verification metadata, never the ROM or objects.
+record-eu: compare-eu
+	python3 -c "from pathlib import Path; import shutil; Path('config/regions').mkdir(exist_ok=True); shutil.copyfile('build/eu/report.json', 'config/regions/eu_verified.json')"
